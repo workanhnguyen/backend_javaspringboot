@@ -1,0 +1,7 @@
+package com.workanhnguyen.repositories;
+
+import com.workanhnguyen.models.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+}
